@@ -1,0 +1,137 @@
+html {
+    font-size: 14px;
+    font-family: "Open Sans", sans;
+}
+
+
+/*-- HEADER STYLES --*/
+
+.navigation {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.active a {
+    color: #399bd1;
+}
+
+    /*-- JUMBOTRON --*/
+
+.jumbotron {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title h1 {
+    font-family: Monoton;
+    font-size: 7.1rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.cta {
+    display: flex;
+    margin: 11.85rem 0;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-title {
+    width: 51.3rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.jumbotron-bike {
+    background: url(../images/jumbotron-bike.jpg) no-repeat fixed center;
+}
+
+.btn-lg {
+    width: 11.4rem;
+    margin-top: 2.8rem;
+    padding: 1.3rem 0;
+    background-color: #399bd1;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary:hover {
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+    transition: linear;
+}
+
+.btn-primary:active {
+   box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);; 
+    transition: linear;
+}
+
+@media only screen and(max-width: 768px) {
+
+    .main-title h1 {
+        font-size: 5.7rem;
+    }
+}
+
+
+
+/*-- FEATURED SECTION --*/
+
+.featured-project {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5.8rem;
+}
+
+.sub-title {
+    font-size: 1.7rem;
+    color: #399bd1;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.subheading {
+    font-weight: 600;
+}
+
+.product-title {
+   font-weight: 600;
+    color: #399bd1;    
+}
+
+.image-container img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+}
+
+.featured-project li {
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/*-- FOOTER --*/
+
+.footer-container {
+    width: 42rem;
+}
+
+.footer-title {
+    flex-direction: column;
+    color: #000;
+    text-align: center;
+    padding: 5.2rem 0;
+    background-color: #f3f3f3;
+}
+
+.footer-title h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+}
+
+
+
+
+
+
+
